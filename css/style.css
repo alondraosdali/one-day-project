@@ -11,7 +11,7 @@ header {
 
 }
 
- {
+ .nav-link {
   font-size:15px;
   font-family:Arial;
   width:100px;
@@ -23,6 +23,10 @@ header {
   text-shadow: 1px 1px 0px red;
   background: white;
   border-radius: 28px;
+}
+
+.nav-link:hover {
+    color:white;
 }
 
 h2 {
